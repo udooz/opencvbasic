@@ -8,7 +8,7 @@ FEATURES = 2 # Corner Feature Detector
 CANNY = 3 # Canny Edge Detector
 
 feature_params = dict(maxCorners=500, qualityLevel=0.2, minDistance=15, blockSize=9)
-s = 0
+s = 0 # your camera in the laptop, 1 - external
 if len(sys.argv) > 1:
     s = sys.argv[1]
 

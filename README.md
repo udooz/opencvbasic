@@ -1,7 +1,7 @@
 conda create -n opencv-env
 activate opencv-env
 
-'''
+`
 conda install -c conda-forge opencv
 
 or recommended
@@ -13,8 +13,4 @@ python
 
 >>> import cv2 as cv
 >>> cv.__version__
-'''
-
-## In WSL2
-In Terminal:
-`jupyter notebook`
+`
